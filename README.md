@@ -1,28 +1,28 @@
-    #Fitness Data Analysis and Calories Prediction
-##Project Overview
+    # Fitness Data Analysis and Calories Prediction
+## Project Overview
 
     This project explores a gym workout dataset and builds machine learning models to predict the number of calories burned during exercise.
     The goal is to identify the factors that most strongly affect calorie consumption and compare the performance of different regression models.
 
-##Dataset:
+## Dataset:
     gym_members_exercise_tracking.csv
 
-##Target Variable:
+## Target Variable:
     Calories_Burned
 
-##Features include:
-    -Age
-    -Weight
-    -Height
-    -Avg_BPM
-    -Max_BPM
-    -Resting_BPM
-    -Session_Duration
-    -Workout_Frequency
-    -Water_Intake
-    -Experience_Level
-    -BMI
-    -Exploratory Data Analysis (EDA)
+## Features include:
+- Age
+- Weight
+- Height
+- Avg_BPM
+- Max_BPM
+- Resting_BPM
+- Session_Duration
+- Workout_Frequency
+- Water_Intake
+- Experience_Level
+- BMI
+- Exploratory Data Analysis (EDA)
 
 ##The following analyses were performed:
     -Dataset inspection with Pandas
