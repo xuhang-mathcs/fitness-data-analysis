@@ -1,4 +1,4 @@
-    # Fitness Data Analysis and Calories Prediction
+# Fitness Data Analysis and Calories Prediction
 ## Project Overview
 
     This project explores a gym workout dataset and builds machine learning models to predict the number of calories burned during exercise.
@@ -24,16 +24,16 @@
 - BMI
 - Exploratory Data Analysis (EDA)
 
-##The following analyses were performed:
-    -Dataset inspection with Pandas
-    -Summary statistics
-    -Correlation analysis
-    -Scatter plot visualization
+## The following analyses were performed:
+- Dataset inspection with Pandas
+- Summary statistics
+- Correlation analysis
+- Scatter plot visualization
 
-##Key observation:
+## Key observation:
     Session_Duration has a very strong positive correlation with Calories_Burned.
  
-##Machine Learning Models
+## Machine Learning Models
     
     1. Linear Regression
     Used as the baseline model.
@@ -51,15 +51,12 @@
     Overfitting
 
     3. Random Forest Regressor
-
     Used to reduce overfitting found in Decision Trees.
-
     Observation:
-
     More stable than a single Decision Tree,
     but did not outperform the final Linear Regression model.
 
-##Feature Engineering
+## Feature Engineering
 
     An interaction feature was created:
 
@@ -67,18 +64,18 @@
     Duration_Experience =
     Session_Duration * Experience_Level
 
-##Purpose:
+## Purpose:
 
     To investigate whether training duration and
     experience level have interaction effects.
 
 
-##Result:
+## Result:
 
 
     Only a small performance improvement was observed.
 
-##Standardization
+## Standardization
 
     All numerical features were standardized using:
 
@@ -88,7 +85,7 @@
     This allows model coefficients to be compared on the same scale.
 
 
-##Main findings:
+## Main findings:
 
     Session_Duration is the most important predictor of calorie consumption.
 
@@ -100,17 +97,17 @@
 
     Random Forest reduced overfitting but did not surpass Linear Regression.
 
-##Skills Used
-    -Python
-    -Pandas
-    -NumPy
-    -Matplotlib
-    -Scikit-learn
-    -Data Analysis
-    -Machine Learning
-    -Feature Engineering
-    -Model Evaluation
-    -What I Learned
+## Skills Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Data Analysis
+- Machine Learning
+- Feature Engineering
+- Model Evaluation
+- What I Learned
 
-##additional remarks:
+## additional remarks:
     all the codes are written in python but some of them are in comment form, you can uncomment them to see the results
