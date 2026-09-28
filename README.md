@@ -1,39 +1,40 @@
-    Fitness Data Analysis and Calories Prediction
-Project Overview
+    #Fitness Data Analysis and Calories Prediction
+##Project Overview
 
     This project explores a gym workout dataset and builds machine learning models to predict the number of calories burned during exercise.
     The goal is to identify the factors that most strongly affect calorie consumption and compare the performance of different regression models.
 
-Dataset:
+##Dataset:
     gym_members_exercise_tracking.csv
 
-Target Variable:
+##Target Variable:
     Calories_Burned
 
-Features include:
-    Age
-    Weight
-    Height
-    Avg_BPM
-    Max_BPM
-    Resting_BPM
-    Session_Duration
-    Workout_Frequency
-    Water_Intake
-    Experience_Level
-    BMI
-    Exploratory Data Analysis (EDA)
+##Features include:
+    -Age
+    -Weight
+    -Height
+    -Avg_BPM
+    -Max_BPM
+    -Resting_BPM
+    -Session_Duration
+    -Workout_Frequency
+    -Water_Intake
+    -Experience_Level
+    -BMI
+    -Exploratory Data Analysis (EDA)
 
-The following analyses were performed:
-    Dataset inspection with Pandas
-    Summary statistics
-    Correlation analysis
-    Scatter plot visualization
+##The following analyses were performed:
+    -Dataset inspection with Pandas
+    -Summary statistics
+    -Correlation analysis
+    -Scatter plot visualization
 
-Key observation:
+##Key observation:
     Session_Duration has a very strong positive correlation with Calories_Burned.
  
-Machine Learning Models
+##Machine Learning Models
+    
     1. Linear Regression
     Used as the baseline model.
     Steps:
@@ -58,7 +59,7 @@ Machine Learning Models
     More stable than a single Decision Tree,
     but did not outperform the final Linear Regression model.
 
-Feature Engineering
+##Feature Engineering
 
     An interaction feature was created:
 
@@ -66,18 +67,18 @@ Feature Engineering
     Duration_Experience =
     Session_Duration * Experience_Level
 
-Purpose:
+##Purpose:
 
     To investigate whether training duration and
     experience level have interaction effects.
 
 
-Result:
+##Result:
 
 
     Only a small performance improvement was observed.
 
-Standardization
+##Standardization
 
     All numerical features were standardized using:
 
@@ -86,9 +87,8 @@ Standardization
 
     This allows model coefficients to be compared on the same scale.
 
-Results
 
-Main findings:
+##Main findings:
 
     Session_Duration is the most important predictor of calorie consumption.
 
@@ -100,15 +100,17 @@ Main findings:
 
     Random Forest reduced overfitting but did not surpass Linear Regression.
 
-Skills Used
-    Python
-    Pandas
-    NumPy
-    Matplotlib
-    Scikit-learn
-    Data Analysis
-    Machine Learning
-    Feature Engineering
-    Model Evaluation
-    What I Learned
+##Skills Used
+    -Python
+    -Pandas
+    -NumPy
+    -Matplotlib
+    -Scikit-learn
+    -Data Analysis
+    -Machine Learning
+    -Feature Engineering
+    -Model Evaluation
+    -What I Learned
 
+##additional remarks:
+    all the codes are written in python but some of them are in comment form, you can uncomment them to see the results
